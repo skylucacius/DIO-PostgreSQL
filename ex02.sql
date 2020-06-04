@@ -18,4 +18,4 @@ create or replace recursive view vw_funcionarios (id,nome,gerente) as (
 							join funcionarios as gerentes on gerentes.id = vw_funcionarios.id
 );
 
-select * from vw_funcionarios
+select * from vw_funcionarios --teste
